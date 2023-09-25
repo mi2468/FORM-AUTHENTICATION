@@ -122,6 +122,12 @@ h2 {
         padding:  5px 15px;
     }
   }
+  
+  @media (max-width: 390px) {
+    .container {
+        width: 370px;
+    }
+  }
 
   @media (max-width: 375px) {
     .container {
@@ -134,5 +140,15 @@ h2 {
     .container {
         width: 300px;
         padding:  5px 15px;
+    }
+  }
+
+  @media (max-width: 280px) {
+    .container {
+        width: 260px;
+    }
+
+    h2 {
+        font-size: 1.6rem;
     }
   }
